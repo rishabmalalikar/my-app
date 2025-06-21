@@ -7,7 +7,7 @@ function Getstarted({name}){
     return(
         <div className='start'>
             <p>Hello,{name}</p>
-            <p>Welcome</p>
+            <p>Welcom</p>
             <button onClick={()=>setMessage(true)}>GeT-StarteD</button>
             {message && <b><p style={{marginBottom: 0, color: 'black'}}>Great</p></b>}
         </div>
